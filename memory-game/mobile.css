@@ -1,0 +1,30 @@
+@media only screen and (max-width: 768px) {
+
+
+  .memory-card {
+    width: calc(33.33% - 10px);
+    height: calc(25% - 10px) ;
+    margin : 5px;
+    position: relative;
+  }
+}
+
+@media only screen and (max-width : 625px) {
+
+  .memory-game {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 4rem;
+  }
+  .memory-card {
+    width: calc(50% - 8px);
+    height: calc(50% - 8px) ;
+    margin : 4px;
+    position: relative;
+  }
+
+@media only screen and (max-width : 400px) {
+  .memory-game {
+    width: 200px;
+    height: 200px;
+}

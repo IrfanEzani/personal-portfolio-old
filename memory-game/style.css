@@ -24,27 +24,6 @@ text-transform: uppercase;
   margin: 0.5rem;
 }
 
-.title em {
-text-transform: none;
-}
-.footer {
-  margin: 1rem 0;
-  font-family: sans-serif;
-  font-size : 20px;
-  font-weight: bold;
-  text-align: center;
-  padding: 0.5rem;
-}
-
-.footer .icons {
-  font-size: 10px;
-  margin-top: 0.2rem;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
 
 .memory-game {
   width: 540px;
