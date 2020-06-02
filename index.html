@@ -19,34 +19,35 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
-    <!-- script
-    ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+ 
     <!-- favicons
     ================================================== -->
     <link rel="shortcut icon" href="favicon_n.ico" type="image/x-icon">
     <link rel="icon" href="n_favicon.ico" type="image/x-icon">
     <!--kit font-awesome-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" integrity="sha256-0rguYS0qgS6L4qVzANq4kjxPLtvnp5nn2nB5G1lWRv4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/d6b402e29a.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js" integrity="sha256-EPrkNjGEmCWyazb3A/Epj+W7Qm2pB9vnfXw+X6LImPM=" crossorigin="anonymous"></script>
 </head>
 <body id="top">
     <!-- header
     ================================================== -->
     <header class="s-header">
         <div class="header-logo">
-            <a class="site-logo" href="index.html"><img src="images/Picture1.png" alt="Homepage"></a>
+            <a class="site-logo" href="#"><img src="images/Picture1.png" alt="Homepage"></a>
         </div>
         <nav class="header-nav-wrap">
             <ul class="header-nav">
                 <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
                 <li><a class="smoothscroll"  href="#about" title="About">About</a></li>
-                <li><a class="smoothscroll"  href="#works" title="Portfolio">Portfolio</a></li>
-                <li><a class="smoothscroll"  href="#blog" title="Projects">Projects</a></li>
+                <li><a class="smoothscroll"  href="#portfolio" title="Portfolio">Portfolio</a></li>
+                <li><a class="smoothscroll"  href="#projects" title="Projects">Projects</a></li>
                 <li><a class="smoothscroll"  href="#contact" title="Contact">Contact</a></li>
             </ul>
         </nav>
-        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+        <a class="header-menu-toggle" href="#"><span>Menu</span></a>
     </header> <!-- end s-header -->
    <!-- home
    ================================================== -->
@@ -58,14 +59,14 @@
                 <h3>Hello There</h3>
                 <h1>
                     I'm Irfan Ezani. </br>
-                    Novice coder. </br>
-                    Some call me techie. </br>
+                    This is my personal page. </br>
+                    I love to code. </br>
                 </h1>
                 <div class="home-content__buttons">
-                    <a href="#works" class="smoothscroll btn btn--stroke">
+                    <a href="#portfolio" class="smoothscroll btn btn--stroke">
                         Portfolio
                     </a>
-                    <a href="#blog" class="smoothscroll btn btn--stroke">
+                    <a href="#projects" class="smoothscroll btn btn--stroke">
                         Projects
                     </a>
                 </div>
@@ -100,8 +101,7 @@
     <section id="about" class="s-about target-section">
         <div class="row narrow section-intro has-bottom-sep">
             <div class="col-full text-center">
-                <h3>About</h3>
-                <h1>More About Me</h1>
+                <h2>More About Me</h2>
                 <p class="lead">
                   18 years old. Alumnus of <a href="http://geniusinsan.usim.edu.my" target="_blank"><b>GENIUS Insan College, USIM.</b><br></a>
                   Skillful in <b>photography and videography.</b><br>
@@ -252,7 +252,7 @@
         <div class="row narrow section-intro has-bottom-sep">
             <div class="col-full">
                 <h3>Portfolio</h3>
-                <h1>See My Proudest Moments in Life.</h1>
+                <h2>See My Proudest Moments in Life.</h2>
                 <p class="lead">These are a few achievements,awards and moments in my life that
                 I cherise.I'm hoping to improve more on the future, joining higher global and national Level
                 of competitions.Enjoy my hall of fame.</p>
@@ -693,44 +693,7 @@
             </div>
         </div>
         <div class="row contact__main">
-            <div class="col-eight tab-full contact__form">
-                <form name="contactForm" id="contactForm" method="post" action="">
-                    <fieldset>
-                    <div class="form-field">
-                        <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <textarea name="contactMessage" id="contactMessage" placeholder="Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
-                    </div>
-                    <div class="form-field">
-                        <button class="full-width btn--primary">Submit</button>
-                        <div class="submit-loader">
-                            <div class="text-loader">Sending...</div>
-                            <div class="s-loader">
-                                <div class="bounce1"></div>
-                                <div class="bounce2"></div>
-                                <div class="bounce3"></div>
-                            </div>
-                        </div>
-                    </div>
-                    </fieldset>
-                </form>
-                <!-- contact-warning -->
-                <div class="message-warning">
-                    Something went wrong. Please try again.
-                </div>
-                <!-- contact-success -->
-                <div class="message-success">
-                    Your message was sent, thank you!<br>
-                </div>
-            </div>
-            <div class="col-four tab-full contact__infos">
+            <div class="col-twelve tab-full contact__infos">
                 <h4 class="h06">Phone</h4>
 
                 <p>012-5657 405<br>
