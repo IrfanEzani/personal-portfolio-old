@@ -42,8 +42,9 @@ body {
   letter-spacing: 0.1rem;
   font-family:"librebaskerville-regular", serif;
 }
-.information_tgh {
+p.information_tgh {
   color:#862121;
+  margin-bottom: 0;
 }
 
 /* -------------------------------------------------------------------
