@@ -65,7 +65,14 @@ a:focus {
     outline: none;
 }
 
+.red {
+    color: #862121;
+}
 
+.bold {
+    text-transform: uppercase;
+    font-weight: 900;
+}
 
 /* ===================================================================
  * # typography & general theme styles - (_document-setup.scss)
@@ -1255,6 +1262,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: relative;
 }
 
+.section-intro .has-bottom-sep p.red.bold.h02{
+color: #862121;
+font-weight: 800;
+text-transform: uppercase;
+}
+
 .section-intro.has-bottom-sep::after {
     display: inline-block;
     height: 1px;
@@ -1318,6 +1331,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     padding-left: 50px;
 }
 
+.blog-list .col-block p.h01 {
+    color: black;
+}
+
 .blog-list h2 {
     font-family: "montserrat-medium", sans-serif;
     font-size: 3rem;
@@ -1357,16 +1374,16 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .blog-list .blog-date a:hover,
 .blog-list .blog-date a:focus,
 .blog-list .blog-date a:active {
-    color: #000000;
+    color: black;
 }
 
 .blog-list .blog-cat {
     font-family: "montserrat-medium", sans-serif;
-    font-size: 1.3rem;
+    font-size: 4rem;
     text-transform: uppercase;
     letter-spacing: .2rem;
     color: #000000;
-    margin-top: -.9rem;
+    margin: 1rem;
 }
 
 .blog-list .blog-cat a {
@@ -2175,6 +2192,14 @@ html.no-csstransitions .home-content__main {
     margin-bottom: 3rem;
 }
 
+.about-content p.h03.bold{
+    margin-bottom: 3rem;
+    color: black;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
 .about-content .left {
     padding-right: 40px;
 }
@@ -2240,6 +2265,14 @@ html.no-csstransitions .home-content__main {
 
 .timeline__header h5 {
     margin-top: 0;
+}
+
+.timeline__header p.h03 {
+    margin: 0;
+}
+
+.timeline__header p.h05 {
+    margin: 1rem 0;
 }
 
 .timeline__desc p {
@@ -2832,7 +2865,7 @@ html.no-csstransitions .home-content__main {
     background-color: #FFFFFF;
     position: relative;
 }
-
+.s-blog 
 
 
 /* ===================================================================
@@ -2897,7 +2930,7 @@ html.no-csstransitions .home-content__main {
 
 .stats__count {
     font-family: "librebaskerville-bold", serif;
-    font-size: 7.2rem;
+    font-size: 5rem;
     line-height: 1;
     color: #0D0A0B;
     padding-bottom: 1.5rem;
@@ -3014,7 +3047,7 @@ html.no-csstransitions .home-content__main {
     background-position: center, center;
     padding-top: 13.2rem;
     padding-bottom: 12rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
     position: relative;
 }
 
@@ -3033,7 +3066,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-contact .section-intro p {
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
 }
 
 .s-contact .section-intro.has-bottom-sep::after {
@@ -3087,6 +3120,11 @@ html.no-csstransitions .home-content__main {
 
 .contact__infos {
     font-size: 1.5rem;
+    color: white;
+}
+
+.contact__infos p {
+    color: white;
 }
 
 .contact__form {
