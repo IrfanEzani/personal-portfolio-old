@@ -1,2 +1,2 @@
-# irfanezani.github.io
-Website
+# irfanezani.com
+Personal Website
